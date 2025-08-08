@@ -1,0 +1,139 @@
+body {
+
+    background: linear-gradient(135deg, #0b1693, #517b8d, #ff18e0);
+
+    color: #fff;
+
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh;
+
+}
+
+
+
+h1 {
+
+    text-align: center;
+
+    font-size: 3rem;
+
+    margin-top: 60px;
+
+    letter-spacing: 2px;
+
+    background: linear-gradient(90deg, #ffce00, #ff73fa);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+
+p { font-style: italic;
+
+    font-size: 1.2rem;
+
+    text-align: center;
+
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    line-height: 1.7;
+
+    background: rgba(44, 83, 100, 0.6);
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 28px rgba(0,0,0,0.12);
+
+}
+
+
+
+div a {
+
+    display: block;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    margin: 35px auto;
+
+    width: 180px;
+
+    padding: 14px 0;
+
+    background: linear-gradient(90deg, #31e3fe, #ff8cfc);
+
+    color: #222;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    font-size: 1.1rem;
+
+    transition: background 0.3s, transform 0.2s;
+
+    box-shadow: 0 2px 16px rgba(49,227,254,0.16);
+
+    
+
+    
+
+    
+
+}
+
+
+
+div a:hover {
+
+    background: linear-gradient(90deg, #ff8cfc, #31e3fe);
+
+    transform: scale(1.08);
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    h1 {
+
+        font-size: 2rem;
+
+        margin-top: 30px;
+
+    }
+
+    p {
+
+        font-size: 1rem;
+
+        padding: 14px;
+
+    }
+
+    div a {
+
+        font-size: 1rem;
+
+        width: 95vw;
+
+        margin: 22px auto;
+
+    }
+
+}
